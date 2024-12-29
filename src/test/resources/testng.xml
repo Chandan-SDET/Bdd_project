@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BDD Suite" verbose="1" parallel="false">
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="com.bddproject.steps.TestRunner" />
+        </classes>
+    </test>
+</suite>
