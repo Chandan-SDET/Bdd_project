@@ -12,6 +12,7 @@ public class StepDefinitions {
     public void iSay(String message) {
         System.out.println("The code is in given"+ message);
         this.message = message;
+        System.out.println("Just for the git"+ message);
     }
 
     @Then("I should see {string}")
